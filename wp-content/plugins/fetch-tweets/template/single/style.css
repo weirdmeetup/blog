@@ -1,0 +1,139 @@
+/*
+Template Name: Single
+Template URI: http://en.michaeluno.jp
+Author: Michael Uno
+Author URI: http://en.michaeluno.jp
+Description: Displays tweets for a single account.
+Version: 2.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: single
+Text Domain: fetch-tweets
+*/
+
+.fetch-tweets-single-container {
+	overflow-y: auto !important;	
+	overflow-x: hidden !important;
+}
+.fetch-tweets-single-user-profile {
+
+}
+.fetch-tweets-single-follow-button {
+	float: right !important;
+	margin: 0 0 0 0.5em !important;
+	font-size: 92% !important;
+}
+p.fetch-tweets-single-user-description {
+	clear: right !important;
+}
+div.fetch-tweets-single-heading p.fetch-tweets-single-user-description {
+	font-size: 92% !important;
+	line-height: 110% !important;
+	margin: 0.25em 0 !important;
+	display: table-cell !important;
+}
+div.fetch-tweets-single-heading iframe {
+	margin-bottom: 0 !important;
+}
+.fetch-tweets-single-item {
+	display: inline-block !important;
+	border-width: 1px 0 0 0 !important;
+	border-style: solid !important;
+	border-color: #E7E7E7 !important;
+	margin-top: 0.5em !important;
+	margin-bottom: 0.5em !important;	
+	padding-top: 0.5em !important;
+	width: 98% !important;
+}
+.fetch-tweets-single-retweet {
+}
+.fetch-tweets-single-heading {
+	vertical-align: text-top !important;
+	line-height: 1em !important;
+	width: 98% !important;
+
+}
+.fetch-tweets-single-profile-image {
+	display: table-column !important;
+	float: left !important;
+	clear: left !important;
+}
+.fetch-tweets-single-user-name {
+	margin: 0 0 0.5em !important;
+	display: inline-block !important; 
+
+}
+.fetch-tweets-single-user-name a {
+	text-decoration: none !important;
+}
+.fetch-tweets-single-credit {
+	display: inline !important;
+	float: right !important;  
+	margin-left: 1em !important;
+	margin-top: 0.8em !important;
+	font-size: 80% !important;
+	line-height: 80% !important;
+	
+}
+.fetch-tweets-single-credit a {
+	text-decoration: none !important;
+}
+.fetch-tweets-single-tweet-created-at {
+}
+.fetch-tweets-single-tweet-created-at a {
+}
+.fetch-tweets-single-body {
+	clear: right !important;
+}
+div.fetch-tweets-single-body p.fetch-tweets-single-text {
+	margin-bottom: 0 !important;
+	
+}
+.fetch-tweets-single-retweet-credit {
+}
+.fetch-tweets-single-retweet-credit a {
+}
+.fetch-tweets-single-container .fetch-tweets-external-media {
+	clear: both !important;
+}
+.fetch-tweets-single-container .fetch-tweets-external-media img,
+.fetch-tweets-single-container .fetch-tweets-media-photo img {
+	max-width: 100% !important;
+	height: auto !important;	
+}
+
+.fetch-tweets-single-intent-buttons {
+	float: right !important;
+	clear: right !important;
+	font-size: smaller !important;
+	margin: 0 !important;
+	padding: 0 !important;		
+}
+.fetch-tweets-single-intent-buttons a {
+	text-decoration: none !important;	
+}
+.fetch-tweets-single-intent-icon a:hover {
+	text-decoration: none !important;
+}
+.fetch-tweets-single-intent-buttons li {
+	display: inline !important;
+}
+ul.fetch-tweets-single-intent-buttons li {
+	margin-left: 0 !important;
+	list-style-type: none !important;
+}
+.fetch-tweets-single-intent-buttons-text {
+	vertical-align: middle !important;
+}
+.fetch-tweets-single-intent-icon {
+	display: inline-block !important;
+	vertical-align: middle !important;
+	width: 16px !important;
+	height: 16px !important;
+	background-position: 0 0 !important;
+	background-repeat:no-repeat !important;
+}
+.fetch-tweets-single-intent-icon:hover  {
+	background-position: -16px 0 !important;
+}
+

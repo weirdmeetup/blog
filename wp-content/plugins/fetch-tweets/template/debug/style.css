@@ -1,0 +1,26 @@
+/*
+	Template Name: Debug
+	Template URI: http://en.michaeluno.jp
+	Author: Michael Uno
+	Author URI: http://en.michaeluno.jp
+	Description: Displays response arrays for debugging.
+	Version: 1.0.1
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: default
+	Text Domain: fetch-tweets
+*/
+
+div.var_dump {
+	padding: 0;
+	margin: 0;
+	border: 1px solid #ddd;
+}
+.var_dump pre {
+	margin: 0;
+	padding: 2em;
+	border: none;
+	white-space: pre;
+	word-break: keep-all;
+	overflow-x: scroll;
+}

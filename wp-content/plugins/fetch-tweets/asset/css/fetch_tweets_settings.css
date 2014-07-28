@@ -1,0 +1,23 @@
+.auth-status {
+	margin-bottom: 0;
+}
+.authenticated {
+	font-weight:bold;
+	color: green;				
+}
+.unauthenticated {
+	font-weight:bold;
+	color: red;				
+}
+
+
+.form-table.status-resources {
+	margin: 0;
+}
+.form-table.status-resources th{
+	font-weight: normal;
+}
+.form-table.status-resources th,
+.form-table.status-resources td {
+	padding: 4px 10px 4px 0;	
+}

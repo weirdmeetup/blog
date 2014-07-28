@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-02-16T10:43:19+00:00\n"
+"Last-Translator: OWenT <http://www.owent.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: People's Republic of China\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin helps you sharing your post with short-links."
+msgstr "本插件能帮助您通过短链接分享日志"
+
+msgid "Title of your posts"
+msgstr "文章标题"
+
+msgid "Short URL"
+msgstr "短链接"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Results for Posts URL"
+msgstr "文章地址结果"
+
+msgid "External URL"
+msgstr "外部链接"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "External URL:"
+msgstr "外部链接:"
+
+msgid "Add a new URL to shorten"
+msgstr "添加短链接"
+
+msgid "Results for External URL"
+msgstr "外部链接结果"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "Do you want to use the following characters?"
+msgstr "您要使用这些字符吗？"
+
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr "这些参数仅在新生成的链接中有效"
+
+msgid "Lower-case characters ([a-z]):"
+msgstr "小写字母([a-z]):"
+
+msgid "Upper-case characters ([A-Z]):"
+msgstr "大写字母([A-Z]):"
+
+msgid "Numeric characters ([0-9]):"
+msgstr "数字([0-9]):"
+
+msgid "Do you want to use a prefix before your short URL?"
+msgstr "您的短链接需要前缀码？"
+
+msgid "Prefix:"
+msgstr "前缀："
+
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr "短链接长度（不包括前缀）"
+
+msgid "Length:"
+msgstr "长度："
+
+msgid "Manage translations"
+msgstr "管理国际化配置"
+
+msgid "Give feedback"
+msgstr "反馈"
+
+msgid "Other plugins"
+msgstr "其他插件"
+
+msgid "Title of your posts/pages"
+msgstr "文章/页面标题"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "Number of clicks"
+msgstr "点击量"
+
+msgid "Internal Redirections"
+msgstr "内部链接"
+
+msgid "External Redirections"
+msgstr "外部跳转"
+
+msgid "Customize the short link URL"
+msgstr "自定义短连接"
+
+msgid "Remove www:"
+msgstr "移除URL前的www"
+
+msgid "Therefore, the short URL will begin with %s"
+msgstr "选中此项，短链接将以%s开始"
+
+msgid "Change the root URL of the short link:"
+msgstr "修改短链接服务URL"
+
+msgid "If you have a shorter URL pointing to your Wordpress blog, you may configure it here by selecting this option"
+msgstr "如果您有指向您Wordpress博客的短链接，您可以通过这个选项来配置"
+
+msgid "Your shorter domain URL:"
+msgstr "短链接服务地址"
+
+msgid "Please add %s before the URL"
+msgstr "在URL添加%s前缀"
+
+msgid "Do you want to automatically shorten links in post/page?"
+msgstr "您需要自动生成文章/页面短链接吗？"
+
+msgid "Automatic shorten links:"
+msgstr "自动短链接"
+
+msgid "Regexp filter:"
+msgstr "正则表达式"
+
+msgid "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+msgstr "以上正则表达式用于选取生成短链接的页面。示例：%s (或 %s) 可以设置本插件缩短所有的链接，如：%s 和 %s"
+
+msgid "Please enter one regexp per line."
+msgstr "请每行输入一个正则表达式"
+
+msgid "If no regexp is entered, links in all pages and posts will be shorten."
+msgstr "如果没有输入任何表达式，所有的文章/页面都将生成短链接"
+
+msgid "The permalink options should not be configured to default in order to enable Short-URL."
+msgstr "要启动Short-URL插件，固定链接设置不能被设为默认值"
+
+msgid "Please go to %s page to correct it."
+msgstr "请到 %s 页来修复此问题"
+
+msgid "Display the short URL?"
+msgstr "显示短链接?"
+
+msgid "At the top of posts:"
+msgstr "在文章顶部"
+
+msgid "At the bottom of posts:"
+msgstr "在文章底部"
+
+msgid "At the top of pages:"
+msgstr "在页面顶部"
+
+msgid "At the bottom of pages:"
+msgstr "在页面底部"
+
+msgid "At the top of excerpt:"
+msgstr "在摘要顶部"
+
+msgid "At the bottom of excerpt:"
+msgstr "在摘要底部"
+
+msgid "Displayed HTML:"
+msgstr "显示HTML"
+
+msgid "Note that %s will be automatically replaced by the shorten URL."
+msgstr "注意: %s 会被自动替换为短链接"
+
+msgid "In addition, %s will be replaced by the shorten URL withour any html link."
+msgstr "PS: %s 会被替换为不带任何HTML标签的短链接地址"
+
+msgid "CSS:"
+msgstr "样式表:"
+
+msgid "Page to be excluded:"
+msgstr "排除的页面"
+
+msgid "Please enter one entry per line. If the page %s is to be excluded, you may enter %s."
+msgstr "请输入要排除的页面,每行一条(如果要排除页面 %s ,输入 %s)"
+
+msgid "For instance, %s and %s will exclude the home page."
+msgstr "例如: %s 和 %s 将会把主页排除"
+
+msgid "Title of your articles"
+msgstr "文章标题"
+
+msgid "What are the short links that are to be displayed?"
+msgstr "需要显示的短链接是？"
+
+msgid "Types (separated with comma):"
+msgstr "类型(使用逗号分隔)"
+
+msgid "For instance %s"
+msgstr "实例 %s"
+
+msgid "Note that ALL page will be shorten, but only this types will be displayed in the first tab of this plugin."
+msgstr "注意:所有的页面都会创建短链接，但只有这些类型会被显示在插件的第一个tab中"
+
+msgid "Do you want to automatically shorten links in article?"
+msgstr "您希望在文章中自动生成短链接吗？"
+
+msgid "Where to display the short URL?"
+msgstr "在什么位置展现短链接？"
+
+msgid "At the top of custom type article:"
+msgstr "在自定义类型顶部"
+
+msgid "At the bottom of custom type article:"
+msgstr "在自定义类型底部"
+
+msgid "Please enter one entry per line. If the article %s is to be excluded, you may enter %s."
+msgstr "请每行输入一条，如果要排除文章 %s, 您可以输入 %s"
+
+msgid "Appearance of such display"
+msgstr "显示外观"
+

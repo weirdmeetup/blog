@@ -1,0 +1,118 @@
+/*
+Template Name: Plain
+Template URI: http://en.michaeluno.jp
+Author: Michael Uno
+Author URI: http://en.michaeluno.jp
+Description: Displays tweets for multiple accounts. 
+Version: 2.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: default
+Text Domain: fetch-tweets
+*/
+
+.fetch-tweets {
+	overflow-y: auto !important;	
+	overflow-x: hidden !important;
+}
+.fetch-tweets-item {
+	display: inline-block !important; 
+	padding-bottom: 0.5em !important;	
+	width: 100% !important;
+}
+.fetch-tweets-retweet {
+}
+.fetch-tweets-main {
+	padding: 0 0.8em !important;
+	/* display: table-cell !important; */
+}
+.fetch-tweets-heading {
+	vertical-align: text-top !important;
+	line-height: 1em !important;
+}
+.fetch-tweets-profile-image {
+	/* display: table-column !important; */
+	/* float: left !important; */
+	/* clear: left !important; */
+	margin: 0 0 0 0 !important;
+}
+.fetch-tweets-user-name {
+	margin-bottom: 0.3em !important;
+	display: inline-block !important; 
+
+}
+.fetch-tweets-user-name a {
+	text-decoration: none !important;
+}
+.fetch-tweets-tweet-created-at {
+	display: inline !important;
+
+	float: right !important; 
+	font-size: smaller !important; 
+	margin-left: 1em !important;
+}
+.fetch-tweets-tweet-created-at a {
+	text-decoration: none !important;
+}
+.fetch-tweets-body {
+	/* clear: right !important; */
+}
+.fetch-tweets-text {
+	margin-bottom: 0 !important;
+}
+div.fetch-tweets-body p.fetch-tweets-text {
+	margin-bottom: 0 !important;
+}
+.fetch-tweets-retweet-credit {
+	float: right !important;
+	margin-left: 0.5em !important;
+	font-size: smaller !important;
+}
+.fetch-tweets-retweet-credit a {
+	text-decoration: none !important;
+}
+.fetch-tweets .fetch-tweets-external-media {
+	clear: both !important;
+}
+.fetch-tweets .fetch-tweets-media-photo {
+}
+.fetch-tweets .fetch-tweets-external-media img,
+.fetch-tweets .fetch-tweets-media-photo img {
+	max-width: 100% !important;
+	height: auto !important;	
+}
+.fetch-tweets .fetch-tweets-media {
+}
+
+.fetch-tweets-intent-buttons {
+	float: right !important;
+	font-size: smaller !important;
+	margin: 0 !important;
+	padding: 0 !important;		
+}
+.fetch-tweets-intent-buttons a ,
+.fetch-tweets-intent-icon a:hover {
+	text-decoration: none !important;
+}
+.fetch-tweets-intent-buttons li {
+	display: inline !important;
+}
+ul.fetch-tweets-intent-buttons li {
+	margin-left: 0 !important;
+	list-style-type: none !important;
+}
+.fetch-tweets-intent-buttons-text {
+	vertical-align: middle !important;
+}
+
+.fetch-tweets-intent-icon {
+	display: inline-block !important;
+	vertical-align: middle !important;
+	width: 16px !important;
+	height: 16px !important;
+	background-position: 0 0 !important;
+	background-repeat:no-repeat !important;
+}
+.fetch-tweets-intent-icon:hover  {
+	background-position: -16px 0 !important;
+}

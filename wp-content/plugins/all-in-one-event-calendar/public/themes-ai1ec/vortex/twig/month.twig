@@ -1,0 +1,79 @@
+{{ navigation | raw }}
+
+<table class="ai1ec-month-view ai1ec-popover-boundary
+	{% if month_word_wrap %}ai1ec-word-wrap{% endif %}">
+	<thead>
+		<tr>
+			{% for weekday in weekdays %}
+				<th class="ai1ec-weekday">{{ weekday }}</th>
+			{% endfor %}
+		</tr>
+	</thead>
+	<tbody>
+		{% for week in cell_array %}
+			{% set added_stretcher = false %}
+			<tr class="ai1ec-week">
+				{% for day in week %}
+
+					{% if day.date is not empty %}
+						<td {% if day.today is not empty %}class="ai1ec-today"{% endif %}>
+							{# This div is needed for laying out multi-day event bars. #}
+							{% if not added_stretcher %}
+								<div class="ai1ec-day-stretcher"></div>
+								{% set added_stretcher = true %}
+							{% endif %}
+
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										{{ data_type | raw }}
+										href="{{ day.date_link | e('html_attr') }}"
+										>{{ day.date }}</a>
+								</div>
+
+								{% for event in day.events %}
+									<a href="{{ event.get_runtime( 'instance_permalink' ) | e('html_attr') }}"
+										{{ data_type_events | raw }}
+										{% if event.is_multiday %}
+											data-end-day="{{ event.get_runtime( 'multiday_end_day' ) }}"
+											data-start-truncated="{{ event.get( 'start_truncated' ) ? 'true' : 'false' }}"
+											data-end-truncated="{{ event.get( 'end_truncated' ) ? 'true' : 'false' }}"
+										{% endif %}
+										data-instance-id="{{ event.get( 'instance_id' ) }}"
+										class="ai1ec-event-container ai1ec-load-event
+											ai1ec-popup-trigger
+											ai1ec-event-id-{{ event.get( 'post_id' ) }}
+											ai1ec-event-instance-id-{{ event.get( 'instance_id' ) }}
+											{% if event.is_allday %}ai1ec-allday{% endif %}
+											{% if event.is_multiday %}ai1ec-multiday{% endif %}"
+										>
+
+										<div class="ai1ec-event"
+											 style="{{ event.get_runtime( 'color_style' ) | e('html_attr') }}">
+											<span class="ai1ec-event-title">
+												{{ event.get_runtime( 'filtered_title' ) | raw }}
+											</span>
+											{% if not event.is_allday %}
+												<span class="ai1ec-event-time">
+													{{ event.get_runtime( 'short_start_time' ) }}
+												</span>
+											{% endif %}
+										</div>
+									</a>
+
+									{% include 'event-popup.twig' with {
+									'text_venue_separator': text_venue_separator
+									} %}
+
+								{% endfor %}
+							</div>
+						</td>
+					{% else %} {# day.date is not empty #}
+						<td class="ai1ec-empty"></td>
+					{% endif %} {# day.date is not empty #}
+
+				{% endfor %} {# day in week #}
+			</tr>
+		{% endfor %} {# week in cell_array #}
+	</tbody>
+</table>

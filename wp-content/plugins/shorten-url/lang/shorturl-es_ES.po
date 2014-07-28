@@ -1,0 +1,185 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-06-14T05:59:13+00:00\n"
+"Last-Translator: SebasContre <seba.im>\n"
+"Last-Translator: JosLuisCruz <senonvero@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: Spain\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin helps you sharing your post with short-links."
+msgstr "Este plugins te ayuda a compartir tus entradas con enlaces cortos."
+
+msgid "Title of your posts/pages"
+msgstr "Título de tus entradas/páginas"
+
+msgid "Short URL"
+msgstr "URL corta"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Number of clicks"
+msgstr "Número de clics"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Internal Redirections"
+msgstr "Redirecciones Internas"
+
+msgid "External URL"
+msgstr "URL externa"
+
+msgid "Delete"
+msgstr "Suprimir"
+
+msgid "External URL:"
+msgstr "URL externa:"
+
+msgid "External Redirections"
+msgstr "Redirecciones Externas"
+
+msgid "Parameters"
+msgstr "Parámetros"
+
+msgid "Lower-case characters ([a-z]):"
+msgstr "Caracteres en minúsculas ([a-z])"
+
+msgid "Upper-case characters ([A-Z]):"
+msgstr "Caracteres en mayúsculas ([A-Z])"
+
+msgid "Numeric characters ([0-9]):"
+msgstr "Caracteres numéricos ([0-9])"
+
+msgid "Length:"
+msgstr "Longitud:"
+
+msgid "Remove www:"
+msgstr "Quitar www:"
+
+msgid "Reset"
+msgstr "Reiniciar"
+
+msgid "Add a new URL to shorten"
+msgstr "Añadir una nueva URL para acortar"
+
+msgid "Do you want to use the following characters?"
+msgstr "¿Quieres utilizar los siguientes caracteres?"
+
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr "Estos parámetros se tendrán en cuenta únicamente para la generación de nuevos vínculos"
+
+msgid "Do you want to use a prefix before your short URL?"
+msgstr "¿Quieres usar un prefijo antes de tu URL corta?"
+
+msgid "Prefix:"
+msgstr "Prefijo:"
+
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr "¿Cual es el largo de tu URL corta (sin el prefijo)?"
+
+msgid "Customize the short link URL"
+msgstr "Personalizar la URL corta"
+
+msgid "Manage translations"
+msgstr "Administrar traducciones"
+
+msgid "Give feedback"
+msgstr "Enviar comentarios"
+
+msgid "Other plugins"
+msgstr "Otros plugins"
+
+msgid "Therefore, the short URL will begin with %s"
+msgstr "Por tanto, la URL corta empezara con %s"
+
+msgid "Change the root URL of the short link:"
+msgstr "Cambiar la URL raiz del enlace corto:"
+
+msgid "If you have a shorter URL pointing to your Wordpress blog, you may configure it here by selecting this option"
+msgstr "Si tiene una URL mas corta apuntando a su blog Wordpress, puede configurarla seleccionando esta opción"
+
+msgid "Your shorter domain URL:"
+msgstr "Su dominio corto:"
+
+msgid "Do you want to automatically shorten links in post/page?"
+msgstr "¿Quiere acortar enlaces automáticamente en entradas/páginas?"
+
+msgid "Automatic shorten links:"
+msgstr "Acortar enlaces automáticamente:"
+
+msgid "Regexp filter:"
+msgstr "Filtro de Expresión Regulares:"
+
+msgid "Please enter one regexp per line."
+msgstr "Por favor, introduzca una expresión regular por línea."
+
+msgid "If no regexp is entered, links in all pages and posts will be shorten."
+msgstr "Si no se introduce una expresión regular, enlaces en todas las páginas y mensajes serán acortados."
+
+msgid "The permalink options should not be configured to default in order to enable Short-URL."
+msgstr "Las opciones de enlaces permanentes no deberían estar configuradas en la opción predeterminada, para poder habilitar Short-URL."
+
+msgid "Please go to %s page to correct it."
+msgstr "Por favor ve a la página %s para corregirlo."
+
+msgid "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+msgstr "El filtro de expresión regular anterior es para seleccionar la página en la que los enlaces se acorten. Por ejemplo, %s (or %s) configura el plugin para acortar todos los enlaces, por ejemplo, en páginas %s y %s"
+
+msgid "Display the short URL?"
+msgstr "¿Mostrar la URL corta?"
+
+msgid "At the top of posts:"
+msgstr "Al principio de las entradas:"
+
+msgid "At the bottom of posts:"
+msgstr "Al final de las entradas:"
+
+msgid "At the top of pages:"
+msgstr "Al principio de las páginas:"
+
+msgid "At the bottom of pages:"
+msgstr "Al final de las páginas:"
+
+msgid "At the top of excerpt:"
+msgstr "Al principio del extracto:"
+
+msgid "At the bottom of excerpt:"
+msgstr "Al final del extracto:"
+
+msgid "Displayed HTML:"
+msgstr "HTML desplegado:"
+
+msgid "Note that %s will be automatically replaced by the shorten URL."
+msgstr "Tenga en cuenta que %s sera reemplazado automáticamente por la URL corta."
+
+msgid "In addition, %s will be replaced by the shorten URL withour any html link."
+msgstr "Ademas, %s sera reemplazado por la URL corta sin un enlace html."
+
+msgid "CSS:"
+msgstr "CSS:"
+
+msgid "Page to be excluded:"
+msgstr "Excluir estas páginas:"
+
+msgid "Please enter one entry per line. If the page %s is to be excluded, you may enter %s."
+msgstr "Por favor ingrese una página por linea. Para que %s sea excluida, solo ingrese %s."
+
+msgid "For instance, %s and %s will exclude the home page."
+msgstr "Por ejemplo, %s y %s excluirán la página principal."
+

@@ -1,0 +1,155 @@
+/* 
+	Fancier Author Box List
+	Author: haruair
+	Author URL: http://haruair.com
+*/
+
+.ts-fab-list:after,
+.ts-fab-list:before,
+.ts-fab-list-item:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.ts-fab-list-user {
+	margin-left: 95px;
+	padding-10px
+}
+.ts-fab-list-social {
+	float: left;
+	font-size: 0;
+	line-height: 1;
+	width:100px;
+	padding-bottom:10px;
+}
+.ts-fab-list-social .avatar {
+	margin: 10px;
+	border-radius: 1000px;
+}
+.ts-fab-list .ts-fab-list-social-links {
+	max-height: 25px;
+	margin-top: 3px;
+	overflow: hidden;
+}
+
+.ts-fab-list-item {
+	margin-bottom: 15px;
+}
+
+.ts-fab-list-user {
+	padding-right: 10px;
+}
+.ts-fab-list-username {
+	line-height: 1;
+	font-weight: bold;
+}
+
+.ts-fab-list-description {
+	font-size: 12px;
+}
+.ts-fab-list-desc {
+	line-height: 1.4;
+}
+
+
+@media screen and (min-width:2468px) {
+	
+	.ts-fab-list-col-2 .ts-fab-list-item {
+		float: left;
+		width: 50%;
+	}
+	.ts-fab-list-col-2 .ts-fab-list-item:nth-of-type(2n+1) {
+		clear: both;
+		//added by @minieetea
+		padding: 10px;
+		border-width: 2px;
+		border-radius: 10px;
+		background-color: ##ECECEC;
+	}
+
+	.ts-fab-list-col-3 .ts-fab-list-item {
+		float: left;
+		width: 33.2%;
+	}
+	.ts-fab-list-col-3 .ts-fab-list-item:nth-of-type(3n+1) {
+		clear: both;
+		//added by @minieetea
+		padding: 10px;
+		border-width: 2px;
+		border-radius: 10px;
+		background-color: ##ECECEC;
+
+	}
+	.ts-fab-list-col-4 .ts-fab-list-item {
+		float: left;
+		width: 25%;
+	}
+	.ts-fab-list-col-4 .ts-fab-list-item:nth-of-type(4n+1) {
+		clear: both;
+	}
+}
+
+@media screen and (min-width:960px) and (max-width:2468px) {
+
+	.ts-fab-list-col-2 .ts-fab-list-item {
+		float: left;
+		width: 50%;
+	}
+	.ts-fab-list-col-2 .ts-fab-list-item:nth-of-type(2n+1) {
+		clear: both;
+		//added by @minieetea
+		padding: 10px;
+		border-width: 2px;
+		border-radius: 10px;
+		background-color: ##ECECEC;
+	}
+
+	.ts-fab-list-col-3 .ts-fab-list-item,
+	.ts-fab-list-col-4 .ts-fab-list-item {
+		float: left;
+		width: 33.2%;
+	}
+	.ts-fab-list-col-3 .ts-fab-list-item:nth-of-type(3n+1),
+	.ts-fab-list-col-4 .ts-fab-list-item:nth-of-type(3n+1) {
+		clear: both;
+		//added by @minieetea
+		padding: 10px;
+		border-width: 2px;
+		border-radius: 10px;
+		background-color: ##ECECEC;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:960px) {
+	.ts-fab-list-col-2 .ts-fab-list-item,
+	.ts-fab-list-col-3 .ts-fab-list-item,
+	.ts-fab-list-col-4 .ts-fab-list-item {
+		float: left;
+		width: 50%;
+	}
+	.ts-fab-list-col-2 .ts-fab-list-item:nth-of-type(2n+1),
+	.ts-fab-list-col-3 .ts-fab-list-item:nth-of-type(2n+1),
+	.ts-fab-list-col-4 .ts-fab-list-item:nth-of-type(2n+1) {
+		clear: both;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.ts-fab-list-social {
+		float: none;
+	}
+	.ts-fab-list-social-links {
+		text-align: left !important;
+	}
+	.ts-fab-list-user {
+		padding-right: 0;
+		margin-left: 0;
+		margin-top: 10px;
+	}
+	.ts-fab-list-item {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+}

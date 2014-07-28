@@ -1,0 +1,472 @@
+Content-Transfer-Encoding: 8bit
+
+#: shorten-url.php:168
+#@ shorturl
+msgid "The permalink options should not be configured to default in order to enable Short-URL."
+msgstr ""
+
+#: shorten-url.php:169
+#@ shorturl
+msgid "Please go to %s page to correct it."
+msgstr ""
+
+#: shorten-url.php:292
+#@ shorturl
+msgid "An error occurs when updating the database."
+msgstr ""
+
+#: shorten-url.php:294
+#@ shorturl
+msgid "An error occurs when updating the database. Nevertheless %s sentences has been imported successfully."
+msgstr ""
+
+#: shorten-url.php:297
+#@ shorturl
+msgid "%s short URL have been added to the database."
+msgstr ""
+
+#: shorten-url.php:363
+#@ shorturl
+msgid "The number of displayed URL cannot exceed %s. Thus the number of url is limited to this number."
+msgstr ""
+
+#: shorten-url.php:370
+#@ shorturl
+msgid "Title of your articles"
+msgstr ""
+
+#: shorten-url.php:370
+#: shorten-url.php:446
+#@ shorturl
+msgid "Short URL"
+msgstr ""
+
+#: shorten-url.php:370
+#@ shorturl
+msgid "Type"
+msgstr ""
+
+#: shorten-url.php:370
+#: shorten-url.php:446
+#@ shorturl
+msgid "Number of clicks"
+msgstr ""
+
+#: shorten-url.php:399
+#: shorten-url.php:474
+#@ shorturl
+msgid "Reset"
+msgstr ""
+
+#: shorten-url.php:400
+#: shorten-url.php:475
+#@ shorturl
+msgid "Edit"
+msgstr ""
+
+#: shorten-url.php:419
+#: shorten-url.php:501
+#@ shorturl
+msgid "Select the file:"
+msgstr ""
+
+#: shorten-url.php:422
+#: shorten-url.php:504
+#@ shorturl
+msgid "Import a file with shorturls"
+msgstr ""
+
+#: shorten-url.php:423
+#: shorten-url.php:505
+#@ shorturl
+msgid "Export the shorturls"
+msgstr ""
+
+#: shorten-url.php:427
+#: shorten-url.php:509
+#@ shorturl
+msgid "Import/Export Short URL"
+msgstr ""
+
+#: shorten-url.php:430
+#@ shorturl
+msgid "Internal Redirections"
+msgstr ""
+
+#: shorten-url.php:446
+#@ shorturl
+msgid "External URL"
+msgstr ""
+
+#: shorten-url.php:446
+#@ shorturl
+msgid "Comment"
+msgstr ""
+
+#: shorten-url.php:472
+#@ shorturl
+msgid "Delete"
+msgstr ""
+
+#: shorten-url.php:486
+#@ shorturl
+msgid "External URL:"
+msgstr ""
+
+#: shorten-url.php:488
+#@ shorturl
+msgid "Comments:"
+msgstr ""
+
+#: shorten-url.php:491
+#: shorten-url.php:495
+#@ shorturl
+msgid "Add a new URL to shorten"
+msgstr ""
+
+#: shorten-url.php:512
+#@ shorturl
+msgid "External Redirections"
+msgstr ""
+
+#: shorten-url.php:517
+#@ shorturl
+msgid "This plugin helps you sharing your post with short-links."
+msgstr ""
+
+#: shorten-url.php:518
+#@ shorturl
+msgid "Purpose of that plugin"
+msgstr ""
+
+#: shorten-url.php:520
+#@ shorturl
+msgid "When the function %s is called, this plugin replace the normal short links by a special crafted short links."
+msgstr ""
+
+#: shorten-url.php:521
+#@ shorturl
+msgid "The short URL may be for instance %s of %s (the length of the short link may be configured)."
+msgstr ""
+
+#: shorten-url.php:522
+#@ shorturl
+msgid "."
+msgstr ""
+
+#: shorten-url.php:523
+#@ shorturl
+msgid "How it works?"
+msgstr ""
+
+#: shorten-url.php:525
+#@ shorturl
+msgid "To display the shorten URL, you just have to choose the position of the display (top, bottom, etc.) in the configuration tab."
+msgstr ""
+
+#: shorten-url.php:526
+#@ shorturl
+msgid "You may also display the shorten URL whereever you want by using the %s function (for instance in your theme)."
+msgstr ""
+
+#: shorten-url.php:527
+#@ shorturl
+msgid "How to display the short URL?"
+msgstr ""
+
+#: shorten-url.php:529
+#@ shorturl
+msgid "When your server see the request short URL, it will automatically redirect to the normal page."
+msgstr ""
+
+#: shorten-url.php:530
+#@ shorturl
+msgid "You may also choose to redirect the short URL through an internal page:"
+msgstr ""
+
+#: shorten-url.php:532
+#@ shorturl
+msgid "You just have to choose a specially crafted page to display during the redirection;"
+msgstr ""
+
+#: shorten-url.php:533
+#@ shorturl
+msgid "In the page, you may insert %s to display the number of seconds remaining;"
+msgstr ""
+
+#: shorten-url.php:534
+#@ shorturl
+msgid "You may also insert %s to display the URL of the page to where the redirection will be performed;"
+msgstr ""
+
+#: shorten-url.php:536
+#@ shorturl
+msgid "How to redirect works?"
+msgstr ""
+
+#: shorten-url.php:543
+#@ shorturl
+msgid "How To"
+msgstr ""
+
+#: shorten-url.php:547
+#: shorten-url.php:613
+#@ shorturl
+msgid "Parameters"
+msgstr ""
+
+#: shorten-url.php:551
+#@ shorturl
+msgid "Do you want to use the following characters?"
+msgstr ""
+
+#: shorten-url.php:552
+#@ shorturl
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr ""
+
+#: shorten-url.php:553
+#@ shorturl
+msgid "Lower-case characters ([a-z]):"
+msgstr ""
+
+#: shorten-url.php:554
+#@ shorturl
+msgid "Upper-case characters ([A-Z]):"
+msgstr ""
+
+#: shorten-url.php:555
+#@ shorturl
+msgid "Numeric characters ([0-9]):"
+msgstr ""
+
+#: shorten-url.php:557
+#@ shorturl
+msgid "Do you want to use a prefix before your short URL?"
+msgstr ""
+
+#: shorten-url.php:558
+#@ shorturl
+msgid "Prefix:"
+msgstr ""
+
+#: shorten-url.php:560
+#@ shorturl
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr ""
+
+#: shorten-url.php:561
+#@ shorturl
+msgid "Length:"
+msgstr ""
+
+#: shorten-url.php:563
+#@ shorturl
+msgid "What are the short links that are to be displayed?"
+msgstr ""
+
+#: shorten-url.php:564
+#@ shorturl
+msgid "Types (separated with comma):"
+msgstr ""
+
+#: shorten-url.php:565
+#@ shorturl
+msgid "For instance %s"
+msgstr ""
+
+#: shorten-url.php:566
+#@ shorturl
+msgid "Note that ALL page will be shorten, but only this types will be displayed in the first tab of this plugin."
+msgstr ""
+
+#: shorten-url.php:568
+#@ shorturl
+msgid "Customize the short link URL"
+msgstr ""
+
+#: shorten-url.php:569
+#@ shorturl
+msgid "Remove www:"
+msgstr ""
+
+#: shorten-url.php:570
+#@ shorturl
+msgid "Therefore, the short URL will begin with %s"
+msgstr ""
+
+#: shorten-url.php:571
+#@ shorturl
+msgid "Change the root URL of the short link:"
+msgstr ""
+
+#: shorten-url.php:572
+#@ shorturl
+msgid "If you have a shorter URL pointing to your Wordpress blog, you may configure it here by selecting this option"
+msgstr ""
+
+#: shorten-url.php:573
+#@ shorturl
+msgid "Your shorter domain URL:"
+msgstr ""
+
+#: shorten-url.php:575
+#@ shorturl
+msgid "Do you want to automatically shorten links in article?"
+msgstr ""
+
+#: shorten-url.php:576
+#@ shorturl
+msgid "Automatic shorten links:"
+msgstr ""
+
+#: shorten-url.php:577
+#@ shorturl
+msgid "Regexp filter:"
+msgstr ""
+
+#: shorten-url.php:578
+#@ shorturl
+msgid "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+msgstr ""
+
+#: shorten-url.php:579
+#@ shorturl
+msgid "Please enter one regexp per line."
+msgstr ""
+
+#: shorten-url.php:580
+#@ shorturl
+msgid "If no regexp is entered, links in all pages and posts will be shorten."
+msgstr ""
+
+#: shorten-url.php:582
+#@ shorturl
+msgid "Where to display the short URL?"
+msgstr ""
+
+#: shorten-url.php:583
+#@ shorturl
+msgid "At the top of posts:"
+msgstr ""
+
+#: shorten-url.php:584
+#@ shorturl
+msgid "At the bottom of posts:"
+msgstr ""
+
+#: shorten-url.php:585
+#@ shorturl
+msgid "At the top of pages:"
+msgstr ""
+
+#: shorten-url.php:586
+#@ shorturl
+msgid "At the bottom of pages:"
+msgstr ""
+
+#: shorten-url.php:587
+#@ shorturl
+msgid "At the top of custom type article:"
+msgstr ""
+
+#: shorten-url.php:588
+#@ shorturl
+msgid "At the bottom of custom type article:"
+msgstr ""
+
+#: shorten-url.php:589
+#@ shorturl
+msgid "At the top of excerpt:"
+msgstr ""
+
+#: shorten-url.php:590
+#@ shorturl
+msgid "At the bottom of excerpt:"
+msgstr ""
+
+#: shorten-url.php:591
+#@ shorturl
+msgid "Page to be excluded:"
+msgstr ""
+
+#: shorten-url.php:592
+#@ shorturl
+msgid "Please enter one entry per line. If the article %s is to be excluded, you may enter %s."
+msgstr ""
+
+#: shorten-url.php:593
+#@ shorturl
+msgid "For instance, %s and %s will exclude the home page."
+msgstr ""
+
+#: shorten-url.php:595
+#@ shorturl
+msgid "Appearance of such display"
+msgstr ""
+
+#: shorten-url.php:596
+#@ shorturl
+msgid "Displayed HTML:"
+msgstr ""
+
+#: shorten-url.php:598
+#@ shorturl
+msgid "Note that %s will be automatically replaced by the shorten URL."
+msgstr ""
+
+#: shorten-url.php:599
+#@ shorturl
+msgid "In addition, %s will be replaced by the shorten URL withour any html link."
+msgstr ""
+
+#: shorten-url.php:600
+#@ shorturl
+msgid "CSS:"
+msgstr ""
+
+#: shorten-url.php:603
+#@ shorturl
+msgid "Redirect first internally"
+msgstr ""
+
+#: shorten-url.php:604
+#@ shorturl
+msgid "Redirect the short link before to an internal page:"
+msgstr ""
+
+#: shorten-url.php:605
+#@ shorturl
+msgid "Number of second before the redirection:"
+msgstr ""
+
+#: shorten-url.php:606
+#@ shorturl
+msgid "Redirect through this internal page only the external redirection:"
+msgstr ""
+
+#: shorten-url.php:608
+#@ shorturl
+msgid "Advanced options"
+msgstr ""
+
+#: shorten-url.php:609
+#@ shorturl
+msgid "Max number of displayed internal redirection:"
+msgstr ""
+
+#: shorten-url.php:619
+#@ shorturl
+msgid "Manage translations"
+msgstr ""
+
+#: shorten-url.php:625
+#@ shorturl
+msgid "Give feedback"
+msgstr ""
+
+#: shorten-url.php:630
+#@ shorturl
+msgid "Other plugins"
+msgstr ""
+

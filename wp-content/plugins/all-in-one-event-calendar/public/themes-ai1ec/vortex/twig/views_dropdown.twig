@@ -1,0 +1,23 @@
+{% if available_views | length > 1 %}
+	<li class="ai1ec-views-dropdown ai1ec-dropdown">
+		<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+			<i class="ai1ec-icon-{{ current_view }} ai1ec-view-icon"></i>
+			{{ view_names[current_view] }}
+			<span class="ai1ec-caret"></span>
+		</a>
+		<div class="ai1ec-dropdown-menu">
+			{% for key, args in available_views %}
+				<div class="{% if key == current_view %}ai1ec-active{% endif %}"
+					data-action="{{ key }}">
+					<a id="ai1ec-view-{{ key }}"
+						{{ data_type | raw }}
+						class="ai1ec-load-view {{ key }}"
+						href="{{ available_views[key].href }}">
+						<i class="ai1ec-icon-{{ key }} ai1ec-view-icon"></i>
+						{{ available_views[key].desc }}
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</li>
+{% endif %}

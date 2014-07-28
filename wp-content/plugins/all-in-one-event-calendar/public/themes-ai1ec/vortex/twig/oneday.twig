@@ -1,0 +1,19 @@
+{% extends 'weekday.base.twig' %}
+
+{% block name 'oneday' %}
+
+{% block weekday_html %}
+	<span class="ai1ec-weekday-date">{{ date | day }}</span>
+	<span class="ai1ec-weekday-day">{{ date | weekday }}</span>
+{% endblock weekday_html %}
+
+{% block event_popup %}
+	{% include "event-popup.twig" with {
+		'popup_classes':  'ai1ec-popup-in-oneday-view',
+		'popup_timespan': event.get( '_orig' ) | timespan( 'short' )
+	} %}
+{% endblock event_popup %}
+
+{% block indent_multiplier 16 %}
+
+{% block indent_offset 54 %}

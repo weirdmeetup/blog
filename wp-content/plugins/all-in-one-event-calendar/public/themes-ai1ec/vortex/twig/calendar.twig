@@ -1,0 +1,18 @@
+{% autoescape false %}
+<!-- START All-in-One Event Calendar Plugin - Version {{ version }} -->
+<div id="ai1ec-container">
+	<!-- AI1EC_PAGE_CONTENT_PLACEHOLDER -->
+	<div id="ai1ec-calendar" class="timely">
+		{{ filter_menu.get_content() }}
+		<div id="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading" class="ai1ec-loading"></div>
+			<div id="ai1ec-calendar-view">
+				{{ view }}
+			</div>
+		</div>
+
+		{{ subscribe_buttons }}
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->
+{% endautoescape %}

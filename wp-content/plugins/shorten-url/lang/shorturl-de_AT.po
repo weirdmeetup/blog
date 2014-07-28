@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-04-20T14:06:03+00:00\n"
+"Last-Translator: AndreasK. <http://andisblog.eu>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Austria\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin helps you sharing your post with short-links."
+msgstr "Dieses Plugin hilft Ihnen! Teilen Sie Ihre Post mit Kurz-Links."
+
+msgid "Title of your posts"
+msgstr "Name des Post."
+
+msgid "Short URL"
+msgstr "Kurzlink"
+
+msgid "Reset"
+msgstr "Zurücksetzten"
+
+msgid "Edit"
+msgstr "Ändern"
+
+msgid "Results for Posts URL"
+msgstr "Ergebnis für Beitrag URL"
+
+msgid "External URL"
+msgstr "Externer URL"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid "External URL:"
+msgstr "Externe URL"
+
+msgid "Add a new URL to shorten"
+msgstr "Eine neue URL zum kürzen hinzufügen"
+
+msgid "Results for External URL"
+msgstr "Ergebnisse für Externe URLs"
+
+msgid "Parameters"
+msgstr "Parameter"
+
+msgid "Do you want to use the following characters?"
+msgstr "Wollen Sie die folgenden Zeichen verwenden?"
+
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr "Dieser Parameter wird nur für diesen Account für neue Links verwendet"
+
+msgid "Lower-case characters ([a-z]):"
+msgstr "Kleine Buchstaben ([a-z])"
+
+msgid "Upper-case characters ([A-Z]):"
+msgstr "Große Buchstaben([A-Z])"
+
+msgid "Numeric characters ([0-9]):"
+msgstr "Nummerische Zeichen ([0-9])"
+
+msgid "Do you want to use a prefix before your short URL?"
+msgstr "Wollen Sie einen Präfix verwenden bevor sie den URL kürzen?"
+
+msgid "Prefix:"
+msgstr "Präfix"
+
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr "Wie lang soll der gekürzte URL sein (ohne Präfix)"
+
+msgid "Length:"
+msgstr "Länge"
+
+msgid "Manage translations"
+msgstr "Verwalte die Sprachen"
+
+msgid "Give feedback"
+msgstr "Gib ein Feedback"
+
+msgid "Other plugins"
+msgstr "Andere Plugins"
+

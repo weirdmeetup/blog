@@ -1,0 +1,40 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-21T06:04:51+00:00\n"
+"Last-Translator: Adhityawicaksana <www.kaoshut.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Indonesian\n"
+"X-Poedit-Country: Indonesia\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "Short URL"
+msgstr "Url Singkat"
+
+msgid "Type"
+msgstr "Tipe"
+
+msgid "Number of clicks"
+msgstr "Jumlah Klik"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Edit"
+msgstr "Ubah"
+
+msgid "Delete"
+msgstr "Hapus"
+

@@ -1,0 +1,311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facebook Page Publish\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-21 02:58+0100\n"
+"PO-Revision-Date: 2011-04-21 03:49+0100\n"
+"Last-Translator: Martin Tschirsich <m.tschirsich@gmx.de>\n"
+"Language-Team: Martin Tschirsich <m.tschirsich@gmx.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\www\\oxyjeuns\\wp-content\\plugins\\wp-facebookpagepublish\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fpp_index.php:49
+msgid "Facebook is not reachable from your server."
+msgstr ""
+
+#: fpp_index.php:49
+msgid "Check the connection!"
+msgstr "Vérifiez la connection!"
+
+#: fpp_index.php:51
+#, php-format
+msgid "Facebook is not reachable from your server: %s"
+msgstr ""
+
+#: fpp_index.php:51
+msgid "Check your connection!"
+msgstr "Vérifiez la connection!"
+
+#: fpp_index.php:59
+#, php-format
+msgid "Facebook returned an error: %s"
+msgstr ""
+
+#: fpp_index.php:67
+msgid "Facebook returned an unexpected error."
+msgstr ""
+
+#: fpp_index.php:67
+#: fpp_index.php:69
+#: fpp_index.php:78
+#: fpp_index.php:80
+msgid "Try to resolve this issue, update the plugin or <a target=\"_blank\" href=\"http://wordpress.org/tags/facebook-page-publish\">inform the author</a> about the problem."
+msgstr ""
+
+#: fpp_index.php:69
+#, php-format
+msgid "Facebook returned an unexpected error: %s"
+msgstr ""
+
+#: fpp_index.php:78
+msgid "Facebook returned an unexpected dataset."
+msgstr ""
+
+#: fpp_index.php:80
+#, php-format
+msgid "Facebook returned an unexpected dataset: %s"
+msgstr ""
+
+#: fpp_index.php:121
+#: fpp_index.php:694
+msgid "Facebook Page Publish Options"
+msgstr "Facebook Page Publish Paramètres"
+
+#: fpp_index.php:121
+msgid "Facebook Page Publish"
+msgstr "Facebook Page Publish"
+
+#: fpp_index.php:246
+#, php-format
+msgid "<p>While publishing \"%1$s\" to Facebook, an error occured: </p><p><strong>%2$s</strong></p>"
+msgstr ""
+
+#: fpp_index.php:292
+msgid "..."
+msgstr "..."
+
+#: fpp_index.php:441
+#, php-format
+msgid "The site URL in your Facebook application settings does not match your wordpress blog URL. Please refer to the <a target=\"_blank\" href=\"%s\">detailed setup instructions</a>."
+msgstr ""
+
+#: fpp_index.php:474
+msgid "Your authorization code was invalid or expired. Please try again. If the problem persists update the plugin or <a target=\"_blank\" href=\"http://wordpress.org/tags/facebook-page-publish\">inform the author</a>."
+msgstr ""
+
+#: fpp_index.php:496
+msgid "Can't access Facebook user account information."
+msgstr ""
+
+#: fpp_index.php:501
+msgid "Some or all access permissions for your page are missing."
+msgstr ""
+
+#: fpp_index.php:507
+msgid "Your Facebook user account data contains no page with the given ID. You have to be administrator of the given page."
+msgstr ""
+
+#: fpp_index.php:648
+msgid "Your application's access permissions could not be granted."
+msgstr ""
+
+#: fpp_index.php:661
+#: fpp_index.php:683
+msgid "Some or all access permissions are missing. Please click the button <em>Grant access rights!</em> and authorize the plugin to post to your Facebook profile or page."
+msgstr "Veuillez accorder les privilèges d'accès manquantes en appuyant sur le bouton <em>Accorder l'accès</em>."
+
+#: fpp_index.php:687
+msgid "Your page or profile's access permissions could not be verified."
+msgstr ""
+
+#: fpp_index.php:704
+msgid "1. Facebook Connection"
+msgstr "1. Connecter à Facebook"
+
+#: fpp_index.php:705
+#, php-format
+msgid "Connect your blog to Facebook. See <a target=\"_blank\" href=\"%s\">detailed setup instructions</a> for help."
+msgstr "Connectez votre blog à Facebook. Voyez les <a target=\"_blank\" href=\"%s\">detailed setup instructions</a> pour plus de details."
+
+#: fpp_index.php:708
+msgid "Application ID"
+msgstr "ID de l'application"
+
+#: fpp_index.php:716
+#: fpp_index.php:720
+msgid "Grant access rights!"
+msgstr "Accorder l'accès!"
+
+#: fpp_index.php:718
+msgid "Access granted."
+msgstr "Accès accordé."
+
+#: fpp_index.php:725
+msgid "Application Secret"
+msgstr "Clé secrète de l'application"
+
+#: fpp_index.php:730
+msgid "Compatibility"
+msgstr "Compatibilité"
+
+#: fpp_index.php:733
+msgid "Ignore SSL Certificate"
+msgstr "Ignorer les certificats SSL"
+
+#: fpp_index.php:739
+#: fpp_index.php:783
+#: fpp_index.php:824
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: fpp_index.php:742
+msgid "2. Publishing"
+msgstr "2. Publication"
+
+#: fpp_index.php:743
+msgid "Specify the posts to publish and decide on which Facebook wall they will appear."
+msgstr "Determinez les articles à publier et choisissez la destination."
+
+#: fpp_index.php:746
+msgid "Page or profile ID"
+msgstr "ID de la page ou du profil"
+
+#: fpp_index.php:759
+msgid "Publish by default"
+msgstr "Publier par défaut"
+
+#: fpp_index.php:763
+msgid "all posts"
+msgstr "tous les articles"
+
+#: fpp_index.php:764
+msgid "posts from selected categories"
+msgstr "articles de catégories sélectionnées"
+
+#: fpp_index.php:765
+msgid "nothing"
+msgstr "rien"
+
+#: fpp_index.php:777
+msgid "Hold [Ctrl] to select multiple categories"
+msgstr "Maintenez appuyée la touche [Ctrl] afin de sélectionner plusieurs categories"
+
+#: fpp_index.php:786
+msgid "3. Customization"
+msgstr "3. Adaption"
+
+#: fpp_index.php:787
+msgid "Customize the appearance of your posts on Facebook."
+msgstr "Adaptez l'apparence de vos articles sur Facebook."
+
+#: fpp_index.php:789
+msgid "Page or profile photo"
+msgstr "Photo de la page ou du profil"
+
+#: fpp_index.php:791
+msgid "Page or profile name"
+msgstr "Nom de la page ou du profil"
+
+#: fpp_index.php:792
+msgid "This is a short excerpt of your post with an example link to Wordpress <a target=\"_blank\" href=\"http://wordpress.org\">http://wordpress.org</a>. Lorem ipsum dolor..."
+msgstr "Voici un extrait de votre article avec un lien vers Wordpress <a target=\"_blank\" href=\"http://wordpress.org\">http://wordpress.org</a>. Lorem ipsum dolor..."
+
+#: fpp_index.php:792
+msgid "Post excerpt"
+msgstr "Publier l'extrait"
+
+#: fpp_index.php:792
+msgid "Include link URLs"
+msgstr "Inclure les liens"
+
+#: fpp_index.php:794
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: fpp_index.php:797
+msgid "From post"
+msgstr "De l'article"
+
+#: fpp_index.php:798
+msgid "Default"
+msgstr "Par défaut"
+
+#: fpp_index.php:799
+msgid "None"
+msgstr "Aucun"
+
+#: fpp_index.php:803
+msgid "Post title linking to your post"
+msgstr "Titre de l'article, lien vers votre blog"
+
+#: fpp_index.php:804
+msgid "Blog domain"
+msgstr "Domain du blog"
+
+#: fpp_index.php:806
+msgid "Post author"
+msgstr "Auteur de l'article"
+
+#: fpp_index.php:807
+msgid "Post categories"
+msgstr "Catégories de l'article"
+
+#: fpp_index.php:815
+msgid "Default thumbnail"
+msgstr "Thumbnail par défaut"
+
+#: fpp_index.php:819
+msgid "Enter an URL or upload an image"
+msgstr "Entrez une URL ou chargez une image de votre ordinateur"
+
+#: fpp_index.php:882
+#: fpp_index.php:884
+msgid "Publish to Facebook"
+msgstr "Publier sur Facebook"
+
+#: fpp_index.php:884
+msgid "Post <em>again</em> to Facebook"
+msgstr "<em>Republier</em> sur Facebook"
+
+#: fpp_index.php:887
+#, php-format
+msgid "Facebook Page Publish is not set up.<br />Please check your <a href=\"%s\">plugin settings</a>."
+msgstr "Facebook Page Publish n'est pas configurée correctement.<br />Veulliez vérifier les <a href=\"%s\">paramètres de l'extension</a>."
+
+#: fpp_index.php:890
+msgid "Private posts are not published"
+msgstr ""
+
+#: fpp_index.php:896
+#, php-format
+msgid "Your Facebook Page Publish plugin reports an error. Please check your <a href=\"%s\">plugin settings</a>."
+msgstr ""
+
+#: fpp_index.php:919
+msgid "The given default thumbnail URL is not valid. Any valid URL has to start with http:// or https://."
+msgstr ""
+
+#: fpp_index.php:919
+msgid "Facebook won't be able to display the choosen default thumbnail."
+msgstr ""
+
+#: fpp_index.php:951
+msgid "Invalid application ID."
+msgstr ""
+
+#: fpp_index.php:951
+#: fpp_index.php:954
+#: fpp_index.php:957
+#, php-format
+msgid "Please refer to the <a target=\"_blank\" href=\"%s\">detailed setup instructions</a>."
+msgstr ""
+
+#: fpp_index.php:954
+msgid "Invalid user or page ID."
+msgstr ""
+
+#: fpp_index.php:957
+msgid "Invalid application secret."
+msgstr ""
+
+#: fpp_index.php:960
+msgid "Your connection options could not be validated."
+msgstr ""
+
+#~ msgid "Facebook Page Publish Plugin Options"
+#~ msgstr "Facebook Page Publish Plugin Paramètres"

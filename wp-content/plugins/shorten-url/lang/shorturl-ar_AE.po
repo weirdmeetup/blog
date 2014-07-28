@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-25T08:20:33+00:00\n"
+"Last-Translator: ZILZAL <http://kolalnastv.com>\n"
+"Last-Translator: alaaasly <areeh.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: U.A.E.\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "The permalink options should not be configured to default in order to enable Short-URL."
+msgstr "من اجل تفعيل الرابط المختصر يجب ان لا تكون الروابط الدائمة في الوضع الافتراضي"
+
+msgid "Please go to %s page to correct it."
+msgstr "الرجاء الذهاب الى صفحة %s لتصحيحها"
+
+msgid "This plugin helps you sharing your post with short-links."
+msgstr "هذه الاضافة تساعدك على مشاركة مقالاتك برابط مختصر"
+
+msgid "Short URL"
+msgstr "الرابط المختصر"
+
+msgid "Type"
+msgstr "النوع"
+
+msgid "Number of clicks"
+msgstr "عدد النقرات"
+
+msgid "Reset"
+msgstr "اعادة تعيين"
+
+msgid "Edit"
+msgstr "تحرير"
+
+msgid "Internal Redirections"
+msgstr "اعادات التوجيه الداخلية"
+
+msgid "External URL"
+msgstr "الرابط الخارجي"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "External URL:"
+msgstr "الرابط الخارجي:"
+
+msgid "Add a new URL to shorten"
+msgstr "اضافة رابط جديد لاختصاره"
+
+msgid "External Redirections"
+msgstr "اعادات التوجيه الخارجية"
+
+msgid "Parameters"
+msgstr "المعاملات"
+
+msgid "Do you want to use the following characters?"
+msgstr "هل تريد استخدام الحروف التالية ؟"
+
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr "هذه المعاملات ستأخذ بالحسبان فقط في حالة انشاء رابط جديد"
+
+msgid "Lower-case characters ([a-z]):"
+msgstr "الاحرف الصغيرة a-z"
+
+msgid "Upper-case characters ([A-Z]):"
+msgstr "الاحرف الكبيرة A-Z"
+
+msgid "Numeric characters ([0-9]):"
+msgstr "الارقام 0-9"
+
+msgid "Do you want to use a prefix before your short URL?"
+msgstr "هل تريد استخدام بادئة قبل الاختصار ؟"
+
+msgid "Prefix:"
+msgstr "البادئة:"
+
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr "ما هو عدد احرف الاختصار الذي تريده (بدون البادئة) ؟"
+
+msgid "Length:"
+msgstr "عدد الاحرف:"
+
+msgid "Customize the short link URL"
+msgstr "تخصيص الرابط المختصر"
+
+msgid "Remove www:"
+msgstr "حذف الـwww:"
+
+msgid "Therefore, the short URL will begin with %s"
+msgstr "لذلك الرابط المختصر سيبدأ بـ %s"
+
+msgid "Change the root URL of the short link:"
+msgstr "تغيير جذر الرابط المختصر"
+
+msgid "If you have a shorter URL pointing to your Wordpress blog, you may configure it here by selecting this option"
+msgstr "اذا كان لديك رابط اقصر مرتبط بمدونة الورد برس الخاصة بك , بإمكانك اعداده هنا باختيار هذا الخيار"
+
+msgid "Your shorter domain URL:"
+msgstr "عنوان رابط مدونتك الاقصر"
+
+msgid "Automatic shorten links:"
+msgstr "اختصر الروابط تلقائياً"
+
+msgid "Regexp filter:"
+msgstr "فلتر التعابير الاعتيادية"
+
+msgid "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+msgstr "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+
+msgid "Please enter one regexp per line."
+msgstr "الرجاء اختيار تعبير واحد في كل سطر"
+
+msgid "If no regexp is entered, links in all pages and posts will be shorten."
+msgstr "اذا لم يتم ادخار تعبير , الروابط في كل الصفحات و التدوينات سيتم اختصارها"
+
+msgid "At the top of posts:"
+msgstr "في رأس التدوينة ؟"
+
+msgid "At the bottom of posts:"
+msgstr "في أسفل التدوينة ؟"
+
+msgid "At the top of pages:"
+msgstr "في رأس الصفحة ؟"
+
+msgid "At the bottom of pages:"
+msgstr "في أسفل الصفحة ؟"
+
+msgid "At the top of excerpt:"
+msgstr "في بداية النبذة المختصرة ؟"
+
+msgid "At the bottom of excerpt:"
+msgstr "في نهاية النبذة المختصرة ؟"
+
+msgid "Displayed HTML:"
+msgstr "الـHTML المعروض:"
+
+msgid "Note that %s will be automatically replaced by the shorten URL."
+msgstr "لاحظ ان %s سيتم استبداله تلقائياً بالرابط المختصر"
+
+msgid "In addition, %s will be replaced by the shorten URL withour any html link."
+msgstr "ايضاً , %s سيتم استبداله بالرابط المختصر بدون روابط الـHTML"
+
+msgid "CSS:"
+msgstr "CSS:"
+
+msgid "Page to be excluded:"
+msgstr "الصفحات المستثناة:"
+
+msgid "For instance, %s and %s will exclude the home page."
+msgstr "حالياً , %s و %s سيتم استثنائهم من الصفحة الرئيسية"
+
+msgid "Manage translations"
+msgstr "ادارة الترجمات"
+
+msgid "Give feedback"
+msgstr "اعطنا رأيك"
+
+msgid "Other plugins"
+msgstr "اضافات اخرى"
+

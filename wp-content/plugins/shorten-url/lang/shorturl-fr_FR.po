@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Generated: SL Framework (http://www.sedlex.fr)\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-23T06:44:15+00:00\n"
+"Last-Translator: SedLex <http://www.sedlex.fr/>\n"
+"Last-Translator: jlmcreation <http://www.jlmcreation.fr>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n>1;\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+
+msgid "This plugin helps you sharing your post with short-links."
+msgstr "Ce plugin vous permet de partager vos articles avec des liens courts."
+
+msgid "Title of your posts/pages"
+msgstr "Titre de vos articles/pages"
+
+msgid "Short URL"
+msgstr "Lien court"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Number of clicks"
+msgstr "Nombre de clics"
+
+msgid "Reset"
+msgstr "Réinitialiser"
+
+msgid "Edit"
+msgstr "Editer"
+
+msgid "Internal Redirections"
+msgstr "Redirections internes"
+
+msgid "External URL"
+msgstr "URL externes"
+
+msgid "Delete"
+msgstr "Effacer"
+
+msgid "External URL:"
+msgstr "URL externes :"
+
+msgid "Add a new URL to shorten"
+msgstr "Ajouter une nouvelle URL à raccourcir"
+
+msgid "External Redirections"
+msgstr "Redirection externes"
+
+msgid "Parameters"
+msgstr "Paramètres"
+
+msgid "Do you want to use the following characters?"
+msgstr "Quels caractères voulez-vous utiliser ?"
+
+msgid "These parameters will be taken in account only for generation of new links"
+msgstr "Ces paramètres ne seront pris en compte que pour la génération de nouveaux liens"
+
+msgid "Lower-case characters ([a-z]):"
+msgstr "Minuscules ([a-z]) :"
+
+msgid "Upper-case characters ([A-Z]):"
+msgstr "Majuscules ([A-Z]) :"
+
+msgid "Numeric characters ([0-9]):"
+msgstr "Caractères numériques ([0-9]) :"
+
+msgid "Do you want to use a prefix before your short URL?"
+msgstr "Voulez-vous un préfixe avant le lien court ?"
+
+msgid "Prefix:"
+msgstr "Préfixe :"
+
+msgid "What is the length of your short URL (without the prefix)?"
+msgstr "Quelle est la longueur de votre lien court (sans le préfixe) ?"
+
+msgid "Length:"
+msgstr "Longueur :"
+
+msgid "Manage translations"
+msgstr "Gérer les traductions"
+
+msgid "Give feedback"
+msgstr "Donner un feedback"
+
+msgid "Other plugins"
+msgstr "Autres plugins"
+
+msgid "Customize the short link URL"
+msgstr "Adaptez le lien URL courte"
+
+msgid "Remove www:"
+msgstr "Retirer www:"
+
+msgid "Therefore, the short URL will begin with %s"
+msgstr "Par conséquent, l&#039;URL courte débutera par : %s"
+
+msgid "Change the root URL of the short link:"
+msgstr "Modifiez l&#039;URL racine du lien court:"
+
+msgid "If you have a shorter URL pointing to your Wordpress blog, you may configure it here by selecting this option"
+msgstr "Si vous avez une URL plus courte pointant vers votre blog Wordpress, vous pouvez le configurer ici en sélectionnant cette option"
+
+msgid "Your shorter domain URL:"
+msgstr "Votre plus court domaine URL:"
+
+msgid "Do you want to automatically shorten links in post/page?"
+msgstr "Vous voulez raccourcir automatiquement les liens dans les messages / la page?"
+
+msgid "Automatic shorten links:"
+msgstr "Liens automatiques raccourcir:"
+
+msgid "Regexp filter:"
+msgstr "Filtre expression rationnelle:"
+
+msgid "The above regexp filter is to select the page in which the link urls are shorten. For instance, %s (or %s) configures the plugin to shorten all links, for instance, in pages %s and %s"
+msgstr "Le filtre expression rationnelle ci-dessus est de sélectionner la page dans laquelle le lien urls sont raccourcir. Par exemple,%s (ou %s) configure le plugin pour raccourcir tous les liens, par exemple, dans les pages %s et %s"
+
+msgid "Please enter one regexp per line."
+msgstr "S&#039;il vous plaît entrer une expression rationnelle par ligne."
+
+msgid "If no regexp is entered, links in all pages and posts will be shorten."
+msgstr "Si aucune expression rationnelle est entré, des liens dans toutes les pages et les messages seront raccourcir."
+
+msgid "The permalink options should not be configured to default in order to enable Short-URL."
+msgstr "Les options de ce permalien ne doivent pas être configurés pour défaut afin de permettre à court URL."
+
+msgid "Please go to %s page to correct it."
+msgstr "S&#039;il vous plaît aller à la page %s pour la corriger."
+
+msgid "An error occurs when updating the database."
+msgstr "Une erreur se produit lorsque la mise à jour a la base de données."
+
+msgid "Where to display the short URL?"
+msgstr "Où voir le court URL?"
+
+msgid "At the top of posts:"
+msgstr "Au sommet de messages:"
+
+msgid "At the bottom of posts:"
+msgstr "Au bas de messages:"
+
+msgid "At the top of pages:"
+msgstr "Au sommet de pages:"
+
+msgid "At the bottom of pages:"
+msgstr "Au bas de pages:"
+
+msgid "At the top of custom type article:"
+msgstr "Au sommet de type personnalisé article:"
+
+msgid "At the bottom of custom type article:"
+msgstr "Au bas de type personnalisé article:"
+
+msgid "At the top of excerpt:"
+msgstr "Au sommet de l&#039;extrait:"
+
+msgid "At the bottom of excerpt:"
+msgstr "Au bas de l&#039;extrait:"
+
+msgid "Page to be excluded:"
+msgstr "Page à exclure:"
+
+msgid "Max number of displayed internal redirection:"
+msgstr "Le nombre maximum de redirection interne affichée:"
+
