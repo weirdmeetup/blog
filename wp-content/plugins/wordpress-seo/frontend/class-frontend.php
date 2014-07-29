@@ -764,7 +764,10 @@ if ( ! class_exists( 'WPSEO_Frontend' ) ) {
 					$skip_pagination = true;
 				} else {
 					$obj       = get_queried_object();
-					$canonical = get_permalink( $obj->ID );
+
+					// @haruair dirty code for canonical url
+					$canonical = get_post_meta( get_the_ID(), 'syndication_permalink', true);
+					if($canonical == "") $canonical = get_permalink( $obj->ID );
 
 					// Fix paginated pages canonical, but only if the page is truly paginated.
 					if ( get_query_var( 'page' ) > 1 ) {
